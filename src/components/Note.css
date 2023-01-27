@@ -1,0 +1,77 @@
+.Note-task {
+  background-color: rgb(226, 222, 224);
+  width: 350px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.Note-task:hover {
+  background-color: rgb(65, 189, 211);
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+}
+.add-title {
+  line-break: anywhere;
+  font-weight: bold;
+  font-size: large;
+}
+.btn-note {
+  display: flex;
+  color: rgb(136, 134, 134);
+}
+.add-task {
+  margin-left: 10px;
+  margin-right: 10px;
+  line-break: anywhere;
+  padding: 15px;
+  font-size: medium;
+}
+.note-edit-form {
+  background-color: rgb(226, 222, 224);
+  width: 350px;
+  height: 160px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.save {
+  margin-left: 260px;
+  background-color: rgb(140, 141, 140);
+  border: none;
+  color: black;
+  font-weight: bold;
+  width: 60px;
+  padding: 5px;
+  cursor: pointer;
+}
+.save:hover {
+  background-color: rgb(92, 94, 92);
+  cursor: pointer;
+}
+.edit-title,
+.edit-task {
+  background-color: rgb(226, 222, 224) !important;
+  color: black;
+  border: none;
+  outline: none;
+  margin: 10px;
+}
+.edit-title::placeholder,
+.edit-task::placeholder {
+  color: black;
+  opacity: 0.7;
+}
+.date {
+  font-size: small;
+  border: none;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  outline: none;
+  border: none;
+}

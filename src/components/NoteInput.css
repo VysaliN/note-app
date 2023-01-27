@@ -1,0 +1,52 @@
+.input {
+  background-color: rgb(69, 172, 192);
+  width: 350px;
+  height: 160px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.input-title {
+  width: 250px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(69, 172, 192);
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+  padding: 5px;
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(69, 172, 192);
+}
+.input-title,
+.input-task {
+  color: white;
+}
+.input-title::placeholder,
+.input-task::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+.btn {
+  margin-left: 260px;
+  background-color: rgb(9, 116, 134);
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  padding: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(7, 83, 97);
+  cursor: pointer;
+}
